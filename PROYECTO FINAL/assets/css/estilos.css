@@ -1,0 +1,102 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+}
+
+.card-img-top {
+  width: 20rem;
+}
+
+.img-fluid {
+  width: 10rem;
+}
+
+.card-body {
+  color: #373a3c;
+}
+
+/* Acerca de mi */
+
+.principal {
+  text-align: center;
+}
+
+#Acerca-de-mi {
+  background-image: url("../img/HEADER.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+/* Mis trabajos */
+
+.card {
+  max-width: 350px;
+  min-width: 350px;
+  background-color: #373a3c;
+  text-align: center;
+  border: #f1eeea 2px solid;
+  box-shadow: 0 0 100px;
+  transition: all linear 1s;
+}
+
+.card:hover {
+  color: antiquewhite;
+  box-shadow: 0 0 90px;
+  transition: transform 4s, ease-in-out 0.1s;
+  transform: scale(1.2);
+}
+
+.card-text {
+  color: aliceblue;
+  margin: auto;
+}
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto {
+  color: aliceblue;
+}
+
+.curriculum {
+  display: flex;
+  justify-content: left;
+  color: aliceblue;
+}
+
+.correo {
+  display: flex;
+  justify-content: center;
+}
+
+.whatsapp {
+  display: flex;
+  justify-content: right;
+}
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand {
+    width: 100px;
+  }
+}
+
+.footer {
+  width: 2rem;
+  height: 2rem;
+}
